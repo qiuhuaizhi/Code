@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <math.h>
-#include <cv.h>
-#include <highgui.h>
-#include <cxcore.h>
-#include <cvaux.h>
+#include <opencv/cv.h>
+#include <opencv/highgui.h>
+#include <opencv/cxcore.h>
+#include <opencv/cvaux.h>
 
 int min(int a, int b, int c);
 int Rgb2Hsi(const IplImage* src, IplImage* dataH, IplImage* dataS, IplImage* dataI);

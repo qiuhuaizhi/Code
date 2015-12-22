@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( bmp2hsi )
+find_package( OpenCV REQUIRED )
+add_executable( bmp2hsi bmp2hsi.cpp )
+target_link_libraries( bmp2hsi ${OpenCV_LIBS} )

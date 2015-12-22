@@ -204,7 +204,7 @@ void doIt()
       
     //读入指定BMP文件进内存  
       
-    char readPath[]="Image/1.BMP";  
+    char readPath[]="Image/1.bmp";  
       
     readBmp(readPath);  
       
